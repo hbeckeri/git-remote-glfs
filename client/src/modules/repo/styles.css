@@ -1,0 +1,46 @@
+.presenter-repo {
+}
+
+.repo-header {
+	background-color: #fafbfc;
+	padding: 20px 0;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #e1e4e8;
+}
+
+.repo-header-title {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	font-size: 18px;
+	line-height: 26px;
+	max-width: 98%;
+	width: 980px;
+	margin: 0 auto;
+}
+
+.repo-header-title-divider {
+	margin: 0 5px;
+	display: inline-block;
+}
+
+.repo-header-title-item {
+	color: #0366d6 !important;
+	text-decoration: none !important;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.repo-header-title-item-repo {
+	font-weight: 600;
+}
+
+.repo-header-title-item:hover {
+	text-decoration: underline !important;
+}
+
+.repo-body {
+	max-width: 98%;
+	width: 980px;
+	margin: 0 auto;
+}

@@ -1,0 +1,41 @@
+{
+  "name": "git-remote-mango",
+  "version": "0.0.2",
+  "description": "Git remote helper for Mango",
+  "bin": "git-remote-mango",
+  "scripts": {
+    "test": "node scripts/test.js",
+    "create-repo": "node scripts/create-repo.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axic/git-remote-mango.git"
+  },
+  "author": "Alex Beregszaszi <alex@rtfs.hu>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/axic/git-remote-mango/issues"
+  },
+  "homepage": "https://github.com/axic/git-remote-mango#readme",
+  "keywords": [
+    "git",
+    "ethereum",
+    "ipfs"
+  ],
+  "dependencies": {
+    "async": "^1.5.2",
+    "bluebird": "3.5.1",
+    "ethereumjs-util": "^4.4.1",
+    "ipfs": "^0.13.0",
+    "multicb": "^1.2.1",
+    "pull-git-remote-helper": "^1.3.2",
+    "pull-stream": "^3.4.2",
+    "rlp": "^2.0.0",
+    "stream-to-pull-stream": "^1.6.9",
+    "web3": "0.20.1"
+  },
+  "devDependencies": {
+    "abstract-pull-git-repo": "0.4.1",
+    "tape": "4.8.0"
+  }
+}

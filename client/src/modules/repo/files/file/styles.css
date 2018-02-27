@@ -1,0 +1,45 @@
+.component-file {
+	height: 32px;
+	width: 100%;
+	border-top: 1px solid #eaecef;
+	font-size: 14px;
+	line-height: 32px;
+	user-select: none;
+	cursor: pointer;
+	transition: background 250ms;
+}
+
+.component-file:hover {
+	background: #f6f8fa;
+}
+
+.file-icon {
+	width: 17px;
+	color: rgba(3,47,98,0.55) !important;
+	padding: 8px 2px 8px 10px;
+}
+
+.file-name {
+	display: inline-block;
+	padding: 0 12px 0 0;
+	color: #0366d6;
+	max-width: 200px;
+	width: 50%;
+	vertical-align: top;
+}
+
+.file-name:hover {
+	text-decoration: underline;
+}
+
+.file-commit {
+	display: inline-block;
+	color: #6a737d;
+	vertical-align: top;
+}
+
+.file-modified {
+	float: right;
+	color: #6a737d;
+	padding: 0 12px;
+}

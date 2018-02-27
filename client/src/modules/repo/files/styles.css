@@ -1,0 +1,26 @@
+.repo-files-component {
+	width: 100%;
+	margin: 12px 0;
+}
+
+.files-header {
+	position: relative;
+	padding: 10px;
+	margin-bottom: -1px;
+	font-size: 13px;
+	line-height: 20px;
+	color: #586069;
+	background-color: #f1f8ff;
+	border: 1px solid #c8e1ff;
+	border-radius: 3px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+.files-body {
+	margin-bottom: 10px;
+	border: 1px solid #dfe2e5;
+	border-top: 0;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+ }

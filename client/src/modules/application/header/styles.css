@@ -1,0 +1,19 @@
+.header-component {
+	height: 54px;
+	width: 100%;
+	background: #24292e;
+}
+
+.header-body {
+	max-width: 98%;
+	width: 980px;
+	margin: 0 auto;
+}
+
+.header-logo {
+	line-height:54px;
+	color: white;
+	font-weight: 500;
+	font-size: 24px;
+	display: inline-block;
+}
